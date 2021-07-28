@@ -1,0 +1,135 @@
+.Validé {
+  background-color: #5be881;
+}
+.Rejeté {
+  background-color: #ff0000;
+}
+.Envalidation {
+  background-color: #fdb64d;
+}
+.icon {
+  font-size: 1.2rem;
+  color: black;
+}
+.table {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  margin: auto auto;
+  position: relative;
+  align-items: center;
+}
+.btn-ajouter {
+  height: 60px;
+  background-color: #ffffff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  margin: 15px auto 20px auto;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.btnc {
+  background-color: #fdb64d;
+  margin-left: 80%;
+  border-radius: 10px;
+  color: rgb(52, 56, 78);
+  width: 200px;
+}
+
+/*formm ///////////// */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  -font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 30px;
+  color: #777;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+  border-radius: 3px;
+}
+
+#contact {
+  background: #f9f9f9;
+  padding: 25px;
+  margin: 30px 0;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+fieldset {
+  margin: 0 0 5px;
+  padding: 0;
+  width: 20%;
+}
+
+#contact input[type="text"] {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin: 0 0 5px;
+  padding: 7px;
+}
+
+#contact input[type="text"]:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact input:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+#contact p {
+  margin-bottom: -5px;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+.in1 {
+  margin-left: 300px;
+  margin-top: -200px;
+}
+.in2 {
+  margin-left: 300px;
+}
+.in3 {
+  margin-left: 600px;
+  margin-top: -135px;
+  margin-bottom: 150px;
+}
+.Enr {
+  margin-left: 800px;
+}

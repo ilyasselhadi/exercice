@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+
+    <title>Exercice1
+    </title>
+</head>
+ 
+<body onload="getDetail()">
+    <div class="container3">
+        
+ 
+        <div id="overview7" class="mt-4">
+             
+        </div>
+ 
+        <div id="payementList" class="table">
+            <table class="table mt-3 text-center">
+                <thead>
+                    <tr>
+                        <th class="id">ID</th>
+                        <th>date de creation</th>
+                        <th> Etat</th>
+                        <th>Nom</th>
+                        <th>Prenom</th>
+                        <th>Nom d'utilisateur</th>
+                        <th>Matricul</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="details">
+ 
+                </tbody>
+            </table>
+
+            
+        </div>
+
+        <div class="btn-ajouter">
+          <button class="btn btnc" onclick="AfficheModal()">Ajouter utilisateur</button>
+        </div>
+
+        <div id="Modal" class="table">
+       
+        </div>
+ 
+    </div>
+ 
+<script src="main.js"></script>
+</body>
+ 
+</html>
